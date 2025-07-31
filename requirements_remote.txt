@@ -1,0 +1,3 @@
+# 线上项目的部署要求
+gunicorn
+psycopg2
