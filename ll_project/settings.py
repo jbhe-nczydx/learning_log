@@ -131,7 +131,10 @@ LOGIN_REDIRECT_URL ='learning_logs:index'
 LOGOUT_REDIRECT_URL ='learning_logs:index'
 LOGIN_URL ='accounts:login'
 
-#platform.sh 设置
+STATIC_URL = '/taticfiles/'
+STATIC_ROOT = BASE_DIR /'staticfiles' 
+
+'''#platform.sh 设置
 from platformshconfig import Config
 
 config=Config
@@ -153,4 +156,4 @@ if config.is_valid_platform():
                 'HOST': db_settings['host'],
                 'PORT': db_settings['port'],
             },
-        }
+        }'''
