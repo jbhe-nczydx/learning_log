@@ -1,0 +1,2 @@
+echo "mykey" >> .gitignore  
+echo "mykey.pub" >> .gitignore
